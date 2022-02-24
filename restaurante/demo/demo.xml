@@ -1,0 +1,45 @@
+<odoo>
+    <data>
+<!--
+          <record id="object0" model="restaurante.restaurante">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="restaurante.restaurante">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="restaurante.restaurante">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="restaurante.restaurante">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="restaurante.restaurante">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+-->
+
+      <record model="restaurante.plato" id="plato0">
+        <field name="name">Plato 0</field>
+        <field description="description">Descripcion del plato 0</field>
+      </record>
+
+      <record model="restaurante.plato" id="plato1">
+        <field name="name">Plato 1</field>
+        <!--castigao sin dscripcion-->>
+      </record>
+
+      <record model="restaurante.plato" id="plato2">
+        <field name="name">Plato 2</field>
+        <field description="description">Descripcion del plato 2</field>
+      </record>
+    </data>
+</odoo>

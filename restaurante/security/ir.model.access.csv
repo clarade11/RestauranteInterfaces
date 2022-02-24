@@ -1,0 +1,7 @@
+
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+session_manager,session 
+manager,model_restaurante_plato,sales_team.group_sale_manager,1,1,1,1
+session_manager,session 
+manager,model_restaurante_carta,sales_team.group_sale_manager,1,1,1,1
+session_read_all,session all,model_restaurante_carta,1,0,0,0
